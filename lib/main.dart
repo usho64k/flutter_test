@@ -22,10 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Welcome to Flutter'),),
-        body: const Center(child: const Text('Hello world'),),
-        ),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
